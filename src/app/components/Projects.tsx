@@ -33,7 +33,7 @@ const projects = [
     description:
       "A full-stack bike sharing platform with secure role-based authentication, user profiles with payment integration, real-time station tracking via map API, and community engagement features including leaderboards and forums.",
     image:
-      "https://images.unsplash.com/photo-1765988804945-87038fae96dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWtlJTIwc2hhcmluZyUyMHN0YXRpb24lMjBjaXR5fGVufDF8fHx8MTc2OTk5NTY4NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/BikeShare.png",
     tags: ["React", "JavaScript", "Node.js", "Express", "SQLite", "Map API"],
     github: "https://github.com/Cemi-am/CodeBusters",
   },
@@ -45,7 +45,7 @@ const projects = [
     description:
       "Designed and implemented a program to analyze topographical data and convert it to 3D-rendered planet maps. Developed algorithms to identify regions of similar elevation with modifiable parameters.",
     image:
-      "https://images.unsplash.com/photo-1718498576061-0ffb3db0a528?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzRCUyMHRlcnJhaW4lMjBtYXAlMjB0b3BvZ3JhcGh5fGVufDF8fHx8MTc2OTk5NTY4Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      "/Topo.png",
     tags: ["React", "TypeScript", "Vite", "Three.js"],
   },
   {
@@ -79,7 +79,7 @@ export function Projects() {
               key={project.id}
               className="rounded-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow group"
             >
-              <div className="relative h-48 overflow-hidden bg-gray-100">
+              <div className="relative h-80 overflow-hidden bg-gray-100">
                 <img
                   src={project.image}
                   alt={project.title}
