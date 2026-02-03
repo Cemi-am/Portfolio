@@ -31,7 +31,7 @@ const techStacks = [
   {
     category: 'Tools & Others',
     icon: GitBranch,
-    technologies: ['Git', 'Docker', 'CI/CD', 'Unity', 'Agile', 'DevOps']
+    technologies: ['Git', 'Docker', 'Storyblock', 'CWS','CI/CD', 'Unity', 'Agile', 'DevOps']
   },
   {
     category: 'Languages',
